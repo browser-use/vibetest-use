@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/browser-use-vibetest-use-badge.png)](https://mseep.ai/app/browser-use-vibetest-use)
+
 # Vibetest Use
 
 Automated QA testing using Browser-Use agents. 
