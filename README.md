@@ -1,3 +1,34 @@
+
+<div align="right">
+  <details>
+    <summary >🌐 Language</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=browser-use&project=vibetest-use&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=browser-use&project=vibetest-use&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=browser-use&project=vibetest-use&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=browser-use&project=vibetest-use&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=browser-use&project=vibetest-use&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=browser-use&project=vibetest-use&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=browser-use&project=vibetest-use&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=browser-use&project=vibetest-use&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=browser-use&project=vibetest-use&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=browser-use&project=vibetest-use&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=browser-use&project=vibetest-use&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=browser-use&project=vibetest-use&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=browser-use&project=vibetest-use&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=browser-use&project=vibetest-use&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=browser-use&project=vibetest-use&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=browser-use&project=vibetest-use&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=browser-use&project=vibetest-use&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=browser-use&project=vibetest-use&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=browser-use&project=vibetest-use&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=browser-use&project=vibetest-use&lang=id">Bahasa Indonesia</a>
+      </div>
+    </div>
+  </details>
+</div>
+
 # Vibetest Use
 
 Automated QA testing using Browser-Use agents. 
