@@ -86,8 +86,7 @@ async def run_pool(base_url: str, num_agents: int = 3, headless: bool = False) -
             )
             
             browser_session = BrowserSession(
-                browser_profile=browser_profile,
-                headless=headless
+                browser_profile=browser_profile
             )
             
             # zoom setup for non-headless mode
@@ -384,7 +383,7 @@ async def scout_page(base_url: str) -> list:
             wait_between_actions=0.5
         )
         
-        browser_session = BrowserSession(browser_profile=browser_profile, headless=True)
+        browser_session = BrowserSession(browser_profile=browser_profile)
         
         scout_task = f"""Visit {base_url} and identify ALL interactive elements on the page. Do NOT click anything, just observe and catalog what's available. List buttons, links, forms, input fields, menus, dropdowns, and any other clickable elements you can see. Provide a comprehensive inventory."""
         
