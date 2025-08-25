@@ -1,4 +1,4 @@
-import asyncio, os, uuid, json, time
+import asyncio, os, uuid, json, time, tempfile
 from browser_use import Agent, BrowserSession, BrowserProfile, ChatGoogle
 from browser_use.llm.messages import UserMessage
 
@@ -35,7 +35,7 @@ async def run_pool(base_url: str, num_agents: int = 3, headless: bool = False) -
         
         try:
             # browser configuration
-            browser_args = ['--disable-gpu', '--no-sandbox', '--disable-dev-shm-usage']
+            browser_args = ['--disable-gpu', '--no-sandbox', '--disable-dev-shm-usage', '--disable-extensions']
             if headless:
                 browser_args.append('--headless=new')
             
@@ -76,7 +76,7 @@ async def run_pool(base_url: str, num_agents: int = 3, headless: bool = False) -
             browser_profile = BrowserProfile(
                 headless=headless,
                 disable_security=True,
-                user_data_dir=None,
+                user_data_dir=tempfile.mkdtemp(),
                 args=browser_args,
                 ignore_default_args=['--enable-automation'],
                 wait_for_network_idle_page_load_time=2.0,
@@ -376,8 +376,8 @@ async def scout_page(base_url: str) -> list:
         browser_profile = BrowserProfile(
             headless=True,
             disable_security=True,
-            user_data_dir=None,
-            args=['--disable-gpu', '--no-sandbox', '--disable-dev-shm-usage', '--headless=new'],
+            user_data_dir=tempfile.mkdtemp(),
+            args=['--disable-gpu', '--no-sandbox', '--disable-dev-shm-usage', '--headless=new', '--disable-extensions'],
             wait_for_network_idle_page_load_time=2.0,
             maximum_wait_page_load_time=8.0,
             wait_between_actions=0.5
