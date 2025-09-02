@@ -8,9 +8,7 @@ logging.disable(logging.CRITICAL)
 os.environ['ANONYMIZED_TELEMETRY'] = 'false'
 os.environ['BROWSER_USE_LOGGING_LEVEL'] = 'CRITICAL'
 
-# Redirect stderr to devnull to suppress any remaining output
-if hasattr(sys.stderr, 'close'):
-    sys.stderr = open(os.devnull, 'w')
+# Note: stderr redirection removed to avoid interfering with MCP JSON-RPC
 
 from mcp.server.fastmcp import FastMCP
 from .agents import run_pool, summarize_bug_reports
@@ -25,14 +23,17 @@ async def start(url: str, num_agents: int = 3, headless: bool = False) -> str:
     Args:
         url: The website URL to test
         num_agents: Number of QA agents to spawn (default: 3)
-        headless: Whether to run browsers in headless mode (default: True)
+        headless: Whether to run browsers in headless mode (default: False)
     
     Returns:
         test_id: Unique identifier for this test run
     """
     try:
         test_id = await run_pool(url, num_agents, headless=headless)
-        return test_id
+        # Ensure we return a string, not None
+        if test_id is None:
+            return "Error: No test ID returned from run_pool"
+        return str(test_id)
     except Exception as e:
         return f"Error starting test: {str(e)}"
 
