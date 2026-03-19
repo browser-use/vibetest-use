@@ -1,0 +1,16 @@
+Metadata-Version: 2.4
+Name: vibeqa-mcp
+Version: 0.2.0
+Summary: AI-powered QA testing via MCP — discover, record, and run regression tests with Browser-Use agents
+Requires-Python: >=3.11
+Requires-Dist: mcp[cli]>=1.0.0
+Requires-Dist: browser-use
+Requires-Dist: playwright
+Requires-Dist: langchain_google_genai
+Requires-Dist: langchain_core
+Requires-Dist: pydantic>=2.0
+Requires-Dist: screeninfo
+Requires-Dist: aiosqlite>=0.19.0
+Provides-Extra: dev
+Requires-Dist: pytest>=7.0; extra == "dev"
+Requires-Dist: pytest-asyncio>=0.21; extra == "dev"

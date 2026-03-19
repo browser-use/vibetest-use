@@ -1,0 +1,5 @@
+[console_scripts]
+vibeqa = vibeqa_mcp.server:run
+vibeqa-mcp = vibeqa_mcp.server:run
+vibetest = vibeqa_mcp.server:run
+vibetest-mcp = vibeqa_mcp.server:run

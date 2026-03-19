@@ -6,8 +6,10 @@ __pycache__/
 *.pyc
 *.pyo
 
-# QA test artifacts
+# QA test artifacts — screenshots, traces, console logs, sqlite DB, auth state
 qa_artifacts/
+runs/
+.blop/
 
 # Environment files
 .env
@@ -25,4 +27,10 @@ venv/
 Thumbs.db
 
 # Logs
-*.log 
+*.log
+
+# Mock artifacts (created by unittest.mock during test runs)
+<MagicMock*
+
+# MCP server config (may contain local paths or secrets)
+.cursor/mcp.json

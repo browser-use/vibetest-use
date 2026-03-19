@@ -1,0 +1,293 @@
+{
+    "cookies": [
+        {
+            "name": "sessionId",
+            "value": "s%3AosRSJlLqnWEX8V7LJ5N-kD-5kjkb7gND.cpXkUBvJsL%2BDRFVCiVBzSxRyG7hwGXcby50aptpOCkU",
+            "domain": "www.sens-ai.dk",
+            "path": "/",
+            "expires": 1774212347.601994,
+            "size": 91,
+            "httpOnly": true,
+            "secure": true,
+            "session": false,
+            "sameSite": "Lax",
+            "priority": "Medium",
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "m",
+            "value": "2729731f-9bc9-4355-95c3-fc5b71e7060d0b177f",
+            "domain": "m.stripe.com",
+            "path": "/",
+            "expires": 1808167794.877627,
+            "size": 43,
+            "httpOnly": true,
+            "secure": true,
+            "session": false,
+            "sameSite": "None",
+            "priority": "Medium",
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "__stripe_mid",
+            "value": "e6c72429-0ecb-48f4-9456-879d4f7a6c95fef685",
+            "domain": ".www.sens-ai.dk",
+            "path": "/",
+            "expires": 1805143794,
+            "size": 54,
+            "httpOnly": false,
+            "secure": true,
+            "session": false,
+            "sameSite": "Strict",
+            "priority": "Medium",
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "__stripe_sid",
+            "value": "60ff28a6-9808-46d0-89cf-7844e5c5fa73d5ebcc",
+            "domain": ".www.sens-ai.dk",
+            "path": "/",
+            "expires": 1773609594,
+            "size": 54,
+            "httpOnly": false,
+            "secure": true,
+            "session": false,
+            "sameSite": "Strict",
+            "priority": "Medium",
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "__cf_bm",
+            "value": "hXwi9vXTirzFhZL7Nb2dztiltqchjOhQXW5HKqod8kU-1773607791-1.0.1.1-WwTD5fpH514TasgwRTzSACbqzYTjz_Gbysb8T.JvsY85GWCBbr2VD7.S.U83M6fWXncw8GO8RKx69Z8J8PwY2Lkz.L9CK7bR_xK.TaXR.Gw",
+            "domain": ".cal.com",
+            "path": "/",
+            "expires": 1773609591.980043,
+            "size": 177,
+            "httpOnly": true,
+            "secure": true,
+            "session": false,
+            "sameSite": "None",
+            "priority": "Medium",
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "__cf_bm",
+            "value": "SlJ6vZOTpfwBhA4EgVlpFL9I8hIXlChw51carVbJoH8-1773607800-1.0.1.1-cwS_A3RLrGnh0uavQNszAoqPKnA2vDAgRsM6KBRG1ypq52ky2l6_zrGsexXBf6go41xXJg0Ob7mQaB6jTXuXMuLAlr3a7m6Vt3GPbDJpkJg",
+            "domain": ".hcaptcha.com",
+            "path": "/",
+            "expires": 1773609600.552109,
+            "size": 177,
+            "httpOnly": true,
+            "secure": true,
+            "session": false,
+            "sameSite": "None",
+            "priority": "Medium",
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "_pxvid",
+            "value": "88d19bfd-20b0-11f1-8aa9-c0e042f4513e",
+            "domain": ".stripecdn.com",
+            "path": "/",
+            "expires": 1805143800.766765,
+            "size": 42,
+            "httpOnly": false,
+            "secure": true,
+            "session": false,
+            "sameSite": "None",
+            "priority": "Medium",
+            "sourceScheme": "Secure",
+            "sourcePort": 443,
+            "partitionKey": {
+                "topLevelSite": "https://stripe.com",
+                "hasCrossSiteAncestor": true
+            }
+        },
+        {
+            "name": "pxcts",
+            "value": "88d1a566-20b0-11f1-8aa9-0a7a4b1c06a2",
+            "domain": ".stripecdn.com",
+            "path": "/",
+            "expires": -1,
+            "size": 41,
+            "httpOnly": false,
+            "secure": true,
+            "session": true,
+            "sameSite": "None",
+            "priority": "Medium",
+            "sourceScheme": "Secure",
+            "sourcePort": 443,
+            "partitionKey": {
+                "topLevelSite": "https://stripe.com",
+                "hasCrossSiteAncestor": true
+            }
+        },
+        {
+            "name": "__cf_bm",
+            "value": "YPQ86euGYCC0VXoFNCtvkZPm0h9o7Wt98fQeKizpPUg-1773607800-1.0.1.1-cnCvEG5WbI1cNbrJ7dfP2qsJbAqw0FoEUTxiqmPSXPD1bp6S8Pp3iZdXd8qpiwFA72V3Uwh.9lfNMFPQx3RYYNaiNDGCcEiP_aa1kzu0M2Q",
+            "domain": ".w.hcaptcha.com",
+            "path": "/",
+            "expires": 1773609600.902916,
+            "size": 177,
+            "httpOnly": true,
+            "secure": true,
+            "session": false,
+            "sameSite": "None",
+            "priority": "Medium",
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "__stripe_mid",
+            "value": "d34eadf2-f33d-4c4b-8df1-bc416428512a29d70e",
+            "domain": ".checkout.stripe.com",
+            "path": "/",
+            "expires": 1805143801,
+            "size": 54,
+            "httpOnly": false,
+            "secure": true,
+            "session": false,
+            "sameSite": "Strict",
+            "priority": "Medium",
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "__stripe_sid",
+            "value": "f45f1b45-34e6-4a58-927b-4fd8d268a0d0950a56",
+            "domain": ".checkout.stripe.com",
+            "path": "/",
+            "expires": 1773609601,
+            "size": 54,
+            "httpOnly": false,
+            "secure": true,
+            "session": false,
+            "sameSite": "Strict",
+            "priority": "Medium",
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "_px3",
+            "value": "80e4dfe7cd3b02dcff53d714f2f58f92c575d0857709ff69677d390646c74727:DaTLt1Z5xfRKAQDfuqQ0w1t70am7ZlIBPdiZ5ABE0SJ6O5EYgS7kTB1xQ9G6HNah5vbEKthFg+0sOqsLR6+TUA==:1000:qhQG7jaqogx5V5fihJoJG5mM/XEQ+NqlmVrOX2pYD/Qs/O3qlpCfM4QVnnPnA3Y3L44Sch2B1xTU1qcy4iAZ0jJnNxEW1TQ4+ltUhw4XtOI5M4WYBuDhN9pIZlPaPrNhoJi6xue54/AaPPDjqBSKDYrFc7k+niwuR0KKRVWwlOOiLuziEQyUiSBRCEqJtbXAem29hUTNFoLQx0ynFBawgQGGeWeQxwnGXPuMXdrCyAimom3Tl+g2zzCCau4zbkHWFbgj+IOLJbnShsvdH+kt2wivd+b8PViq+HSPvnpf3oI5FZzlfVfoTl/ZYlpWwvcuZpWSCFzyu1JbtBsw8oy0zdrENcRjuUhAB6Ttm0MdkIY+ImYHWvPM70YyuxGxO+5bMrjCxjzsiAfBuA8afYUyuHXdUpgkt6C/XHBXswwLKvH57F7D0HrChJw7kwCUyVsBC5HXESUA+yzsl9r2+IqNAfPxi141W6//ooAnYjuIKewWCdHE90rzPBAKADDjykpzqQw+sdPi/4KqCBz8tWk6yqiNtMqsn1fieHG+h7naO0iqG0b35l/+vrlnD0OM9Si3",
+            "domain": ".stripecdn.com",
+            "path": "/",
+            "expires": 1773608131.67213,
+            "size": 739,
+            "httpOnly": false,
+            "secure": true,
+            "session": false,
+            "sameSite": "None",
+            "priority": "Medium",
+            "sourceScheme": "Secure",
+            "sourcePort": 443,
+            "partitionKey": {
+                "topLevelSite": "https://stripe.com",
+                "hasCrossSiteAncestor": true
+            }
+        },
+        {
+            "name": "_pxde",
+            "value": "71fad6242a0d02fdcbd131ad56275b7fc3b6b0f35befa2193a5bbc6653da44a2:eyJ0aW1lc3RhbXAiOjE3NzM2MDc4MDE2MjN9",
+            "domain": ".stripecdn.com",
+            "path": "/",
+            "expires": 1773608131.672254,
+            "size": 106,
+            "httpOnly": false,
+            "secure": true,
+            "session": false,
+            "sameSite": "None",
+            "priority": "Medium",
+            "sourceScheme": "Secure",
+            "sourcePort": 443,
+            "partitionKey": {
+                "topLevelSite": "https://stripe.com",
+                "hasCrossSiteAncestor": true
+            }
+        },
+        {
+            "name": "hmt_id",
+            "value": "eae60856-ede3-4bff-ade6-a09a0b029d38",
+            "domain": "api.hcaptcha.com",
+            "path": "/",
+            "expires": 1776199802.756494,
+            "size": 42,
+            "httpOnly": false,
+            "secure": true,
+            "session": false,
+            "sameSite": "None",
+            "priority": "Medium",
+            "sourceScheme": "Secure",
+            "sourcePort": 443,
+            "partitionKey": {
+                "topLevelSite": "https://stripe.com",
+                "hasCrossSiteAncestor": true
+            }
+        }
+    ],
+    "origins": [
+        {
+            "origin": "https://www.sens-ai.dk",
+            "sessionStorage": [
+                {
+                    "name": "sentryReplaySession",
+                    "value": "{\"id\":\"711c1e1b44134c028e6072c37fb6d0f5\",\"started\":1773607547495,\"lastActivity\":1773607793282,\"segmentId\":0,\"sampled\":\"buffer\",\"dirty\":true}"
+                }
+            ]
+        },
+        {
+            "origin": "https://m.stripe.network",
+            "sessionStorage": [
+                {
+                    "name": "_ab",
+                    "value": "false"
+                },
+                {
+                    "name": "_mf",
+                    "value": "1100111100000000100110111100000000000011001000010111111"
+                },
+                {
+                    "name": "1",
+                    "value": "1"
+                },
+                {
+                    "name": "id",
+                    "value": "f9e0d5ed5c5e3b397373ba44edf4de2d"
+                }
+            ]
+        },
+        {
+            "origin": "https://b.stripecdn.com",
+            "localStorage": [
+                {
+                    "name": "PXVl48pWoc_px-ff",
+                    "value": "eyJjYyI6eyJ0dGwiOjE3NzM2MDc4NjEsInZhbCI6IlUyRnRaVk5wZEdVOVRtOXVaVHNnVTJWamRYSmxPeUJRWVhKMGFYUnBiMjVsWkRzZyJ9fQ=="
+                },
+                {
+                    "name": "PXVl48pWoc_px_hvd",
+                    "value": "0e1eedc4eba36b9f906f41eb6953641b"
+                }
+            ],
+            "sessionStorage": [
+                {
+                    "name": "pxsid",
+                    "value": "88d1a2cd-20b0-11f1-8aa9-0a7a4b1c06a2"
+                },
+                {
+                    "name": "PXVl48pWoc_px_c_p_PXVl48pWoc",
+                    "value": "0"
+                },
+                {
+                    "name": "PXVl48pWoc_px_nfsp",
+                    "value": "1"
+                }
+            ]
+        }
+    ]
+}

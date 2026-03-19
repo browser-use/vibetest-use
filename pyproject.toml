@@ -1,7 +1,7 @@
 [project]
-name = "vibetest"
-version = "0.1.0"
-description = "Browser-agent QA swarm with MCP interface for testing AI-generated websites"
+name = "blop"
+version = "0.2.0"
+description = "AI-powered QA testing via MCP"
 requires-python = ">=3.11"
 dependencies = [
   "mcp[cli]>=1.0.0",
@@ -9,12 +9,56 @@ dependencies = [
   "playwright",
   "langchain_google_genai",
   "langchain_core",
-  "pydantic",
+  "pydantic>=2.0",
   "screeninfo",
+  "aiosqlite>=0.19.0",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=7.0",
+  "pytest-asyncio>=0.21",
+]
+anthropic = [
+  "langchain_anthropic>=0.3.0",
+]
+openai = [
+  "langchain_openai>=0.3.0",
+]
+server = [
+  "fastapi>=0.115.0",
+  "uvicorn[standard]>=0.30.0",
+  "sse-starlette>=2.0.0",
+]
+all = [
+  "langchain_anthropic>=0.3.0",
+  "langchain_openai>=0.3.0",
+  "fastapi>=0.115.0",
+  "uvicorn[standard]>=0.30.0",
+  "sse-starlette>=2.0.0",
 ]
 
 [tool.setuptools.packages.find]
-include = ["vibetest*"]
+where = ["src"]
+include = ["blop*"]
+
+[tool.setuptools.package-dir]
+"" = "src"
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
 
 [project.scripts]
-vibetest-mcp = "vibetest.mcp_server:run"
+blop = "blop.server:run"
+blop-mcp = "blop.server:run"
+blop-http = "blop.server_http:run"
+blop-inspect = "blop.devtools:launch_inspector"
+
+[tool.ruff]
+target-version = "py311"
+line-length = 120
+src = ["src", "tests"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I"]
+ignore = ["E501"]

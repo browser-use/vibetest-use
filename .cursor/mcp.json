@@ -1,0 +1,18 @@
+{
+  "mcpServers": {
+    "blop": {
+      "command": "uv",
+      "args": ["--directory", "/Users/alejandrolaurlund/Development/blop-use", "run", "python", "-m", "blop.server"],
+      "env": {
+        "GOOGLE_API_KEY": "${GOOGLE_API_KEY}",
+        "APP_BASE_URL": "${APP_BASE_URL}",
+        "LOGIN_URL": "${LOGIN_URL}",
+        "TEST_USERNAME": "${TEST_USERNAME}",
+        "TEST_PASSWORD": "${TEST_PASSWORD}",
+        "BLOP_DB_PATH": ".blop/runs.db",
+        "BLOP_HEADLESS": "true",
+        "BLOP_MAX_STEPS": "50"
+      }
+    }
+  }
+}

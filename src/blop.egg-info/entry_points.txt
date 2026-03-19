@@ -1,0 +1,5 @@
+[console_scripts]
+blop = blop.server:run
+blop-http = blop.server_http:run
+blop-inspect = blop.devtools:launch_inspector
+blop-mcp = blop.server:run
