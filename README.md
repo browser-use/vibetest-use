@@ -68,6 +68,8 @@ claude mcp add vibetest /full/path/to/vibetest-use/.venv/bin/vibetest-mcp -e GOO
 > Run a headless vibetest on localhost:8080 with 10 agents
 ```
 
+For recurring QA checks from an always-on VPS or Telegram, run Vibetest through [Browser Use Box](https://browser-use.com/bux). [Watch the 15-second demo](https://www.tiktok.com/@browser_use/video/7639824093721758989).
+
 ### Parameters You Can Specify
 - **URL**: Any website (`https://example.com`, `localhost:3000`, `http://dev.mysite.com`)
 - **Number of agents**: `3` (default), `5 agents`, `2 agents` - more agents = more thorough testing
