@@ -10,11 +10,16 @@ os.environ['BROWSER_USE_LOGGING_LEVEL'] = 'CRITICAL'
 
 # Note: stderr redirection removed to avoid interfering with MCP JSON-RPC
 
-from mcp.server.fastmcp import FastMCP
+try:
+    from mcp.server.mcpserver import MCPServer
+except ModuleNotFoundError as exc:
+    if exc.name != "mcp.server.mcpserver":
+        raise
+    from mcp.server.fastmcp import FastMCP as MCPServer
 from .agents import run_pool, summarize_bug_reports
 
-# Create FastMCP instance
-mcp = FastMCP("vibetest")
+# Create the MCP server instance
+mcp = MCPServer("vibetest")
 
 @mcp.tool()
 async def start(url: str, num_agents: int = 3, headless: bool = False) -> str:
