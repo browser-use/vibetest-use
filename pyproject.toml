@@ -4,8 +4,8 @@ version = "0.1.0"
 description = "Browser-agent QA swarm with MCP interface for testing AI-generated websites"
 requires-python = ">=3.11"
 dependencies = [
-  "mcp[cli]>=1.0.0",
-  "browser-use",
+  "mcp[cli]>=1.0.0,<2",  # mcp 2 renamed FastMCP (vibetest/mcp_server.py)
+  "browser-use>=0.12,<1",  # 1.0 drops BrowserSession/BrowserProfile (vibetest/agents.py); 0.11 misses deps
   "playwright",
   "langchain_google_genai",
   "langchain_core",
