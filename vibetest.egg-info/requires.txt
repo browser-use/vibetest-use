@@ -1,5 +1,5 @@
-mcp[cli]>=1.0.0
-browser-use
+mcp[cli]<2,>=1.0.0
+browser-use<1,>=0.12
 playwright
 langchain_google_genai
 langchain_core
